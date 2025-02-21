@@ -14,7 +14,7 @@ export default function App() {
       }
       setError("");
 
-      const res = await fetch("https://your-backend-url.com/bfhl", {
+      const res = await fetch("https://back-tau-jet.vercel.app/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(parsedData),
